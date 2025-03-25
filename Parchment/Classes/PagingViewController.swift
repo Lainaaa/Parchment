@@ -570,9 +570,9 @@ open class PagingViewController:
         dataSourceReference = .finite(dataSource)
         infiniteDataSource = dataSource
 
-        if let firstItem = dataSource.items.first {
-            pagingController.select(pagingItem: firstItem, animated: false)
-        }
+//        if let firstItem = dataSource.items.first {
+//            pagingController.select(pagingItem: firstItem, animated: false)
+//        }
     }
 
     private func configureDataSource(for viewControllers: [UIViewController]) {
